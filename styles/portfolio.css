@@ -1,0 +1,253 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif; */
+:root {
+    --background-color: #202020;
+    --btn---background-color:#FFFFFF;
+    --heading-font-family: 'Playfair Display', serif;
+    --default-font-family: 'Poppins', sans-serif;
+    --secondary-background-color: #FFFFFF;
+    --secondary-button-color: #F6579A;
+}
+
+
+
+body .about-section {
+    border: #212529;
+    border-radius: 4px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #FFFFFF;
+}
+h1 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 36px;
+    color: #FFFFFF ;
+    display: block;
+}
+
+h5 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 26px;
+}
+
+.about-section h1 {
+  font-family: var(--heading-font-family); 
+  font-size: 60px;
+  line-height: 60px;
+  color: var(--background-color); 
+  text-align: center;
+  
+  }
+.about-section h2 {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+    font-family: var(--default-font-family);
+    text-align: center;
+}
+
+.about-section p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+.btn-branding {
+    background: var(--background-color);
+    display: block;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 20px;
+    padding: auto;
+}
+
+@media (max-width:768px) {
+  .btn-branding{
+    display: inline-block;
+    
+
+  }
+
+  img {
+    min-height: 30vh;
+  }
+
+}
+
+.btn {
+  
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, secondary-button-color ease-in-out, secondary-button-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    border-radius: 6px;
+    max-height: 60vh;
+    margin: 1em auto;
+}
+
+
+p {
+   font-family: var(--default-font-family); 
+   font-weight: normal;
+   color: #FFFFFF ;
+   font-size: 18px;
+}
+
+h5 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 26px;
+}
+
+
+.masthead {
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+
+.masthead {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 45px 20px 10px 20px;
+
+}
+.cover-overlay {
+  position: absolute;
+  background-color: var(--background-color);
+}
+
+@media (max-width:768px) {
+  .masthead {
+    min-height: 40vh;
+  }
+.masthead p {
+    font-size: 16px;
+  }
+
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.card-text {
+  flex-grow: 1;
+}
+
+.card .img-fit {
+  aspect-ratio: auto;
+  object-fit: cover;
+}
+
+.container {
+background-color: var(--secondary-background-color);
+text-align: left;
+padding: 5px 10px;
+margin: 0%;
+}
+
+.container h2 {
+font-family: var(--heading-font-family);
+font-weight: bold;
+font-size: 20px;
+color: #202020 ; 
+
+}
+
+.container h3 {
+font-family: var(--default-font-family);
+font-weight: bold;
+font-size: 16px;
+color: #FFFFFF ; 
+
+}
+
+.container p {
+font-size: 16px;
+color: #202020 ; 
+}
+
+.btn-video {
+background-color:var(--background-color);
+transition: none;
+color: #FFFFFF;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+padding: 12px 20px;
+border-radius: 4px;
+}
+
+.content-container {
+  background-color: var(--secondary-background-color);
+  display: block;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 40px;
+  margin-right: 10px;
+}
+
+.content-container h1 {
+font-family: var(--heading-font-family);
+    font-size: 64px;
+    line-height: 80px;
+    color: #202020; 
+
+}
+.content-container h2 {
+font-family: var(--heading-font-family);
+font-weight: bold;
+font-size: 30px;
+color: #202020 ; 
+
+}
+
+.content h3 {
+font-family:  var(--heading-font-family);
+line-height:1.5;
+font-weight: bold;
+font-size: 24px;
+color: #202020 ; 
+}
+
+.content p {
+font-size: 14px;
+color: #202020 ; 
+}
+
+.content img {
+  background-color: #202020;
+}
+
